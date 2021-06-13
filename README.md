@@ -60,9 +60,6 @@ Put .env file in each of the `/src` make sure you put them accordingly.
 
 1. This `README.md` is a modified version of the default create-react-app README.md. For the default README.md, you can visit create-react-app official Github repository [here](https://github.com/facebook/create-react-app).
 
-2. Auth0 callback URL is currently redirecting to https://ezcookfor.me, if you're running locally, most likely you won't be able to go to the admin page. Contact me for changing the callback URL of the Auth0. 
-
-
 Best Regards,
 
 EZCOOKFORME team
