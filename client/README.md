@@ -59,6 +59,7 @@ Put .env file in each of the `/src` make sure you put them accordingly.
 **notes**
 
 1. This `README.md` is a modified version of the default create-react-app README.md. For the default README.md, you can visit create-react-app official Github repository [here](https://github.com/facebook/create-react-app).
+2. Password for login is listed in the .env of the files. **DO NOT FORGET TO ADD THEM.**
 
 Best Regards,
 
