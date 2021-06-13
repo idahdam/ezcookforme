@@ -1,0 +1,201 @@
+.aboutus-body {
+  height: 900px;
+  width: 100%;
+  background-color: #f1f0f5;
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutus-body-text {
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  width: 49%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0% 5%;
+}
+
+.aboutus-body-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 72px;
+  text-align: center;
+  font-family: 'Bw Glenn Sans DEMO Bold';
+}
+
+.aboutus-body-writing {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 58px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  font-family: 'Bw Glenn Sans DEMO Regular';
+}
+
+.aboutus-body-img {
+  display: flex;
+  flex: 51%;
+}
+
+.aboutus-img {
+  height: 900px;
+  width: 100%;
+  padding: 1%;
+  image-resolution: 900px 900px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.aboutus-body-whatis {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  padding: 50px 15%;
+}
+
+.aboutus-body-howtouse {
+  height: 500px;
+  text-align: center;
+  padding: 0% 15%;
+  justify-content: center;
+}
+
+.button-meet-d-team {
+  display: flex;
+  height: 100%;
+  width: 35%;
+  padding: 1%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 53px;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  justify-content: center;
+  background: rgba(87, 84, 79, 0.79);
+  opacity: 0.79;
+  border-radius: 20px;
+  font-family: 'Bw Glenn Sans DEMO Bold';
+  cursor: pointer;
+}
+
+.aboutus-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutus-modal-fade {
+  background-color: #C4C4C4;
+  height: auto;
+  width: auto;
+  padding: 50px 75px;
+  border-radius: 20px;
+
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-column-gap: 100px;
+}
+
+.aboutus-modal-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 43px;
+  text-align: center;
+  font-family: 'Bw Glenn Sans DEMO Regular';
+}
+
+.aboutus-team-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutus-team-img img {
+  width: auto;
+  height: 100%;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.aboutus-team-img:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+
+@media screen and (max-width: 1440px) {
+  .aboutus-body-title {
+      font-size: 22px;
+      line-height: 60px;
+  }
+
+  .aboutus-body-writing {
+      font-size: 30px;
+      line-height: 48px;
+  }
+
+  .button-meet-d-team {
+      font-size: 40px;
+  }
+
+  .aboutus-modal-grid {
+      font-size: 20px;
+  }
+
+  .aboutus-team-img {
+      width: 160px;
+      height: 160px;
+  }
+  .aboutus-body-whatis {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+
+}
+
+@media screen and (max-width: 1366px) {
+  .aboutus-body-title {
+      font-size: 28px;
+      line-height: 50px;
+  }
+
+  .aboutus-body-writing {
+      font-size: 24px;
+      line-height: 40px;
+  }
+
+  .button-meet-d-team {
+      font-size: 35px;
+  }
+
+  .aboutus-modal-grid {
+      font-size: 16px;
+  }
+  
+
+  .aboutus-team-img {
+      width: 120px;
+      height: 120px;
+  }
+}

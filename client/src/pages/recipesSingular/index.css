@@ -1,0 +1,59 @@
+.container-singular{
+  margin: 30px;
+}
+
+.row-singular {
+  display: flex;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row-singular h1,
+.row-singular h3 {
+  font-family: 'Bw Glenn Sans DEMO Bold';
+}
+
+.row-singular p {
+  font-family: 'Bw Glenn Sans DEMO Regular';
+}
+
+.column-singular {
+  margin-left: 50px;
+}
+
+.singular-back-button {
+  border: none;
+  background: transparent;
+  margin: 3% 5% 50px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 43px;
+  cursor: pointer;
+  font-family: 'Bw Glenn Sans DEMO Bold';
+}
+
+.singular-back-button:hover {
+  color: white;
+  transition: ease-in 0.3s;
+}
+
+.singular-img {
+  border-radius: 20px;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.singular-dish-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  margin: auto;
+}
+
+.bullet-points-singular{
+  list-style: none;
+  margin-left: -2.5em;
+}

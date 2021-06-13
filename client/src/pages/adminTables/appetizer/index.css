@@ -1,0 +1,27 @@
+.admin-back-button {
+    margin: 3% 5% 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 43px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: 'Bw Glenn Sans DEMO Bold';
+}
+
+.admin-back-button:hover {
+    color: white;
+    transition: ease-in 0.3s;
+}
+
+.admin-table-title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    font-family: 'Bw Glenn Sans DEMO Bold';
+}

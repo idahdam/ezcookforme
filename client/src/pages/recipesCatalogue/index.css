@@ -1,0 +1,63 @@
+.box-sizing{
+  padding: 50px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  font-family: 'Bw Glenn Sans DEMO Bold';
+}
+
+.column-right{
+  float: left;
+  width: 75%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.recipes-title {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.recipes-title:visited, .recipes-title:link {
+  color: black;
+}
+
+.recipes-courses {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 50px;
+  width: 200px;
+
+}
+
+.recipes-courses:visited, .recipes-courses:link {
+  color: black;
+}
+
+.list-destroy-borderstyle {
+  list-style-type: none;
+}
+
+.dish-category{
+  margin-left: 1.6%;
+  font-family: 'Bw Glenn Sans DEMO Bold';
+}
+
+#Selected {
+  background-color: #e4b686;
+  padding :10px 8px;
+  border-radius: 20px;
+}
+
+

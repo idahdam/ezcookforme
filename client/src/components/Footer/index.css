@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+.footer-column {
+    float: left;
+    padding: 30px;
+    height: 300px;
+}
+
+.left {
+    width: 28%;
+    padding-left: 50px;
+}
+
+.middle {
+    width: 34%;
+}
+
+.right {
+    width: 38%;
+}
+
+.column-social{
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.footer-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer-row {
+    background-color: #c4c4c4;
+}
+
+.footer-row ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.column-contents{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 31px;
+    padding-right: 25px;
+    color: #000000;
+
+    text-decoration: none;
+
+    font-family: 'Bw Glenn Sans DEMO Regular';
+}
+
+.column-title{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 43px;
+
+    color: #000000;
+
+    font-family: 'Bw Glenn Sans DEMO Black';
+}
+
+@media screen and (max-width: 960px){
+    .footer-column{
+        width: 100%;
+        text-align: center;
+    }
+
+    .column-contents{
+        padding-left: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1150px){
+    .social{
+        width: 100%;
+    }
+}
+
+.insta{
+    margin-left: 10px;
+}
+
+.button-stuff{
+  border: none;
+  text-decoration: none;
+  background-color: none;
+}

@@ -1,0 +1,48 @@
+.fourOfour{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
+
+.fourOfour:hover{
+  transition: ease-in 2s;
+  filter: invert(100%)
+}
+
+.fourOfourText{
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Bw Glenn Sans DEMO Bold';
+}
+
+.react-player{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-bottom:40px;
+  margin-top:40px;
+}
+
+.body-of-nullpage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top:40px;
+  
+}
+
+.code-404 {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 1650px) {
+  .react-player{
+    width: 850;
+    height:480;
+  }
+}

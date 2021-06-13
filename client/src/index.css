@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Bw Glenn Sans DEMO Bold';
+  src: local('Bw Glenn Sans DEMO'), url(./fonts/BwGlennSansDEMO/BwGlennSansDEMO-Bold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Bw Glenn Sans DEMO Regular';
+  src: local('Bw Glenn Sans DEMO'), url(./fonts/BwGlennSansDEMO/BwGlennSansDEMO-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Bw Glenn Sans DEMO Black';
+  src: local('Bw Glenn Sans DEMO'), url(./fonts/BwGlennSansDEMO/BwGlennSansDEMO-Black.otf);
+}
+
+.swal2-popup{
+  font-family: 'Bw Glenn Sans DEMO Regular';
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #F1F0F5;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

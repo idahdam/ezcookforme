@@ -1,0 +1,94 @@
+.column-form {
+  float: left;
+  width: 50%;
+}
+
+.row-form{
+  width: 100%;
+}
+/* Clear floats after the columns */
+.row-form:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.border-form{
+  margin: 50px;
+  padding: 10px;
+}
+
+.font-for-inputs{
+  font-size: 15px;
+  padding-left: 2px;
+  background-color: #c4c4c4;
+  border: none;
+  font-family: 'Bw Glenn Sans DEMO Regular';
+}
+
+.font-for-cancel-submit{
+  font-size: 20px;
+  padding-left: 2px;
+  height: 20px;
+  background-color: #c4c4c4;
+  border: none;
+  font-family: 'Bw Glenn Sans DEMO Bold';
+  cursor: pointer;
+}
+
+.font-for-cancel-submit:hover {
+  transition: ease-in 0.3s;
+  color: white;
+}
+
+.input-row{
+  width: 500px;
+  border-radius: 20px;
+  padding-left: 10px;
+  height: 30px;
+
+}
+
+.input-row-long{
+  width: 500px;
+  border-radius: 20px;
+  height: 190px;
+}
+
+.input-row-diff{
+  width: 100px;
+  padding: auto;
+  border-radius: 20px;
+  height: 30px;
+}
+
+.input-row-rating{
+  width: 100px;
+  padding: auto;
+  border-radius: 20px;
+  height: 30px;
+}
+
+
+.column-form-diff-rating {
+  background-color: tomato;
+  float: left;
+  width: 50%;
+}
+
+.row-form-diff-rating:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.image-preview{
+  padding-top: 20px;
+  max-width: 350px;
+  padding-bottom: 50px;
+}
+
+.choices {
+  font-family: 'Bw Glenn Sans DEMO Regular';
+  margin-left: 1%;
+}

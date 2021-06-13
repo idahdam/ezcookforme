@@ -1,0 +1,109 @@
+.home-body{
+    height : 900px;
+    width: 100%;
+    background-color: #f1f0f5 ;
+    display: flex;
+    flex-direction: row;
+    position: initial;
+
+
+  }
+  .home-body-text{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width : 49%;
+    height: 100%;
+    display : flex;
+    flex-direction: column;
+    padding: 0% 5%;
+  }
+
+  .home-body-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 72px;
+    text-align: center;
+    font-family: 'Bw Glenn Sans DEMO Bold';
+  }
+
+  .home-body-writing{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 58px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-family: 'Bw Glenn Sans DEMO Regular';
+  }
+
+  .home-img{
+    height : 900px;
+    width: 100%;
+    padding : 1%;
+    image-resolution: 900px 900px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+
+  .home-body-img{
+    display: flex;
+    flex : 51%;
+  }
+
+  .button-emailus{
+    display: flex;
+    height: 120px;
+    width: 420px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 53px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    justify-content: center;
+    background: rgba(87, 84, 79, 0.79);
+    opacity: 0.79;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Bw Glenn Sans DEMO Bold';
+  }
+
+  .emailus-link:link,
+  .emailus-link:visited {
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 1440px) {
+    .home-body-title{
+      font-size: 22px;
+      line-height: 60px;
+
+    }
+    .home-body-writing{
+      font-size: 30px;
+      line-height: 48px;
+    }
+
+    
+  }
+
+  @media screen and (max-width: 1366px) {
+    .home-body-title{
+      font-size: 28px;
+      line-height: 50px;
+
+    }
+    .home-body-writing{
+      font-size: 24px;
+      line-height: 40px;
+    }
+  }
+
+
+  

@@ -1,0 +1,29 @@
+.Search-results-title{
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.Search-results-desc{
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+}
+
+.row-of-search{
+    width: 100%;
+    flex-direction: column;
+}
+
+.box-sizing-of-search{
+  padding: 50px;
+  box-shadow: 5px 10px #888888;
+  box-sizing: border-box;
+  font-family: 'Bw Glenn Sans DEMO Bold';
+}
+
+  .content-of-search{
+    padding-left : 4%;
+  }
+  

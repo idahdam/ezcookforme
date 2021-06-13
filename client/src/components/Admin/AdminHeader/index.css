@@ -1,0 +1,90 @@
+.admin-header {
+  font-weight: bold;
+  line-height: 20px;
+  font-size: 40px;
+}
+
+.amount-of-recipes {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #BABDCD;
+}
+
+.column-img {
+  float: left;
+  width: 30%;
+  text-align: center;
+}
+
+.row-img {
+  align-items: center;
+}
+
+/* Clear floats after the columns */
+.row-img:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.img-styling {
+  height: 250px;
+  width: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.center-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hi-admin-text {
+  padding: 2% 10%;
+  font-family: 'Bw Glenn Sans DEMO Bold';
+}
+
+.amount-each-int {
+  color: #BABDCD;
+}
+
+.amount-each {
+  font-family: 'Bw Glenn Sans DEMO Bold';
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.button-add-recipe {
+  float: right;
+  display: block;
+  width: 300px;
+  height: 70px;
+  border: none;
+  margin-top: -65px; 
+  margin-right: 2%;
+
+  background: #C4C4C4;
+  border-radius: 20px;
+  
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 20px;
+  cursor: pointer;
+  font-family: 'Bw Glenn Sans DEMO Bold';
+}
+
+.button-add-recipe:hover {
+  transition: ease-in 0.3s;
+  color: white;
+}
+
+.link-table, .link-table:visited, .link-table:link {
+  text-decoration: none;
+  color: black;
+}

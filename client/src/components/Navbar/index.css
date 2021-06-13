@@ -1,0 +1,275 @@
+.topNav {
+    width : 100%;
+    height : 120px;
+    max-height: 230px;
+    list-style-type: none;
+
+    display : flex;
+    position: sticky;
+    top : 0;
+    z-index: 999;
+    transition: ease-in 0.5s;
+    background : rgba(196,196,196,0.6);
+    font-family: 'Bw Glenn Sans DEMO Bold';
+  }
+
+  #scroll{
+    transition: ease-in 0.5s;
+    background : rgba(196,196,196);
+    opacity : 1;
+  }
+
+  .topNav .buttons 
+  {
+    flex : 50%;
+    display : flex;
+    justify-content: left;
+    align-items: center;
+
+  }
+
+  .topNav .clickmedaddy{
+    display: none;
+  }
+  .foto-logo-ezcook{
+    display: none;
+  }
+  
+
+  .topNav .buttons li a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topNav .buttons li a:hover {
+    color: black;
+    transition: ease-in 0.2s;
+    color: white;
+  }
+  
+  .topNav .searchbar
+  {
+    flex : 50%;
+    display : flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+  }
+  
+  .searchbar-font{
+    font-family: 'Bw Glenn Sans DEMO Regular';
+  }
+  
+  .topNav .searchbar input {
+    width : 750px;
+    height: 46px;
+    border-radius: 40px;
+    padding-left: 20px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right : 50px;
+    flex-grow:2;
+  }
+
+  .topNav .searchbar input:focus {
+    /* removing the input focus blue box. Put this on the form if you like. */
+    outline: none;
+  }
+
+  .input-background {
+    width : 750px;
+    height: 46px;
+    display : flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 40px;
+  }
+
+  .buttonlogout {
+    background-color: #947761;
+    color : white;
+    transition: ease-in 0.5s;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: -20px;
+    border: none;
+    width : 100px;
+    height : 46px;
+    border: solid black 1px;
+    font-size: 20px;
+    border-radius: 40px;
+    margin-right : 50px;
+  }
+
+  .buttonlogin {
+    transition: ease-in 0.5s;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: -20px;
+    border: none;
+    cursor: pointer;
+    width : 100px;
+    height : 46px;
+    background-color: #E4B686;
+    border: solid black 1px;
+    font-size: 20px;
+    border-radius: 40px;
+    margin-right : 50px;
+    
+  }
+
+  .search-button{
+    width : 40px !important;
+    height: 46px !important;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 2px;
+    border: none;
+    background-color: transparent;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .buttonlogin:hover{
+    color: black;
+    transition: ease-in 0.2s;
+    color: white;
+  }
+  
+  @media screen and (max-width: 1920px) {
+    .topNav .buttons li a.links {
+      margin: 35px;
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 1750px) {
+
+    .topNav .searchbar input {
+      width : 100%;
+    } 
+    .input-background {
+      width : 100%;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+
+    .topNav .buttons li a.links {
+      margin: 0px;
+      width: 100%;
+    }
+    .topNav .buttons {
+      display: none;
+    }
+    .topNav .active {
+      display: none;
+    }
+    
+    .topNav .searchbar
+    {
+      margin-left : 150px;
+      margin-right : 150px;
+      display: none;
+    }
+    .topNav #hidden a{
+      margin-top: 30px;
+      font-size: 25px;
+
+    }
+
+    .foto-logo-ezcook{
+      justify-content: left;
+      align-items: center;
+      align-content: center;
+      text-align: center;
+      margin-left: 30px;
+
+      display: flex;
+      font-size: 40px;
+      background-color: transparent;
+      border: none;
+    }
+    .topNav .clickmedaddy{
+      justify-content: right;
+      align-items: center;
+      align-content: center;
+      text-align: center;
+      margin-top: 30px;
+      margin-right: 40px;
+      display: flex;
+      height: 60px;
+      width: 100%;
+      background-size: 60px 60px;
+      font-size: 50px;
+      background-color: transparent;
+      border: none;
+
+    }
+
+    
+    .topNav #hidden  {
+      position: absolute;
+      right : 0px;
+      top : 80px;
+      height : 250px;
+      width : 100%;
+      display: flex;
+      flex-direction: column ;
+      margin-bottom: 100px;
+      width: 50%;
+      font-size: 25px;
+    }
+  }
+
+  .active{
+    margin-left: 20px;
+    font-weight: 900;
+    font-size: 22px;
+    color: black;
+    display : flex;
+    justify-content: left;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Bw Glenn Sans DEMO Black';
+  }
+
+/* 40/250 */
+  .topNav #hidden {
+    transition: ease-in 0.5s;
+    width: 100%;
+    margin-top: 40px;
+    padding-top : -60px ;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    background : rgba(196,196,196,0.6);
+
+  }
+
+  #scroll #hidden {
+    transition: ease-in 0.5s;
+    background : rgba(196,196,196,1);
+
+  }
+  .foto-logo-home{
+    align-content: center;
+    image-resolution: 40px 40px;
+    display: none;
+  }
+
+  

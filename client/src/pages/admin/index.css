@@ -1,0 +1,11 @@
+.loader-pos {
+  display: flex;
+  justify-content: center;
+}
+
+.contributor{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Bw Glenn Sans DEMO Bold';
+}

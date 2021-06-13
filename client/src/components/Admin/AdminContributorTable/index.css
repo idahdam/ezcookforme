@@ -1,0 +1,49 @@
+.table-admin {
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 20px;
+  margin: auto 10%;
+  width: 100%;
+}
+
+.table-head th, .table-contents td {
+  border-bottom: 2px solid white;
+  text-align: center;
+  padding: 8px;
+}
+
+.table-head {
+  background: white;
+  font-family: 'Bw Glenn Sans DEMO Bold';
+}
+
+.table-style {
+  overflow-x: auto;
+  display: flex;
+}
+
+.contributors {
+  height: 300px;
+  margin-bottom: 100px;
+}
+
+.contributors-edit {
+  width: 5%;
+}
+
+.table-contents {
+  background: #c4c4c4;
+  font-family: 'Bw Glenn Sans DEMO Regular';
+}
+
+.button-contributors-table {
+  border: none;
+  background: transparent;
+  margin-left: 40%;
+  margin-top: 15%;
+}
+
+.button-contributors-table:hover {
+  background: white;
+  border-radius: 20px;
+}
