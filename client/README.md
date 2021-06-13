@@ -4,8 +4,7 @@
 
 Repositories:
 
-- [Front End](https://github.com/idahdam/ezcookforme-frontend)
-- [Back End](https://github.com/idahdam/ezcookforme-backend)
+- [EZCOOKFORME Repository](https://github.com/idahdam/ezcookforme)
 
 
 ## What is EZCOOKFORME?
@@ -38,12 +37,9 @@ Assuming you want to run the application locally, follow these instructions.
 
 1. Clone from Front End and Back End repository listed above using git with command:
 
-`git clone [Front End]`
+`git clone [this repository]`
 
-`git clone [Back End]` 
-
-2. After you're done, change directory with format
-`ezcookforme-[frontend/backend]`
+2. After you're done, change to directory for each `client` and `server`
 
 `cd [directory]`
 
