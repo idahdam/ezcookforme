@@ -1,10 +1,13 @@
 ## Readme for EZCOOKFOR.ME
 
 ##### Hint: Open the `README.md` on our repositories for best viewing experience.
+##### Always refer to the individual repository for the most updated version.
 
 Repositories:
 
 - [EZCOOKFORME Repository](https://github.com/idahdam/ezcookforme)
+- [backend](https://github.com/idahdam/ezcookforme-backend)
+- [fronntend](https://github.com/idahdam/ezcookforme-frontend)
 
 
 ## What is EZCOOKFORME?
