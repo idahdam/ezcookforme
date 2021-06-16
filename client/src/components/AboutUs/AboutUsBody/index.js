@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.css'
 import Tablet from '../../../assets/AboutUs/aboutus_2.png'
-import Hadi from '../../../assets/AboutUs/MeetTheTeam/hadi ganti.png'
+import Hadi from '../../../assets/AboutUs/MeetTheTeam/Hadi.png'
 import Fakhri from '../../../assets/AboutUs/MeetTheTeam/Fakhri.jpg'
 import Fanta from '../../../assets/AboutUs/MeetTheTeam/padem.jpg'
 import Pindika from '../../../assets/AboutUs/MeetTheTeam/pindikabener.jpg'
