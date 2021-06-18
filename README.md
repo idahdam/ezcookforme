@@ -5,7 +5,7 @@
 
 Repositories:
 
--[EZCOOKFORME Website](https://ezcookfor.me)
+- [EZCOOKFORME Website](https://ezcookfor.me)
 - [EZCOOKFORME Repository](https://github.com/idahdam/ezcookforme)
 - [backend](https://github.com/idahdam/ezcookforme-backend)
 - [fronntend](https://github.com/idahdam/ezcookforme-frontend)
